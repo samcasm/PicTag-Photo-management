@@ -863,7 +863,7 @@
         <image name="folder1" width="178.28572082519531" height="178.28572082519531"/>
         <image name="icloud" width="180" height="180"/>
         <image name="uncheckbox" width="37.5" height="37.5"/>
-        <image name="video-play-button" width="96" height="96"/>
+        <image name="video-play-button" width="153.19148254394531" height="153.19148254394531"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="vZY-vd-2FC"/>
