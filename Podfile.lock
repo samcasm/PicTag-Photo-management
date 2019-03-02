@@ -1,0 +1,36 @@
+PODS:
+  - DateTimePicker (2.1.2)
+  - EEZoomableImageView (0.1.2)
+  - MaterialShowcase (0.6.4)
+  - UICollectionViewLeftAlignedLayout (2.0.0)
+
+DEPENDENCIES:
+  - DateTimePicker
+  - EEZoomableImageView
+  - MaterialShowcase
+  - UICollectionViewLeftAlignedLayout (from `https://github.com/coeur/UICollectionViewLeftAlignedLayout.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DateTimePicker
+    - EEZoomableImageView
+    - MaterialShowcase
+
+EXTERNAL SOURCES:
+  UICollectionViewLeftAlignedLayout:
+    :git: https://github.com/coeur/UICollectionViewLeftAlignedLayout.git
+
+CHECKOUT OPTIONS:
+  UICollectionViewLeftAlignedLayout:
+    :commit: 15ddc466c932aa7cdf5d479cd003911e8c5276ac
+    :git: https://github.com/coeur/UICollectionViewLeftAlignedLayout.git
+
+SPEC CHECKSUMS:
+  DateTimePicker: 111a1ca10b390ac315fdf3e85a5941fd4f72dfb7
+  EEZoomableImageView: 17389e2a7d03fc861fc9d044f06907777edd8970
+  MaterialShowcase: afe984102c7803766ef58101f40c3a9bd1475490
+  UICollectionViewLeftAlignedLayout: ccb93790d907ba4befd1450542d9e48e4e669459
+
+PODFILE CHECKSUM: 503d25d3912b8e617b4935259b6e0f3117dc0152
+
+COCOAPODS: 1.5.3
