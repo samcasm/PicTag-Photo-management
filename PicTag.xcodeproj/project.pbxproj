@@ -466,7 +466,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = lookNoFurther.Eidetic.NotificationService;
+				PRODUCT_BUNDLE_IDENTIFIER = lookNoFurther.PicTag.NotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -486,7 +486,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = lookNoFurther.Eidetic.NotificationService;
+				PRODUCT_BUNDLE_IDENTIFIER = lookNoFurther.PicTag.NotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
