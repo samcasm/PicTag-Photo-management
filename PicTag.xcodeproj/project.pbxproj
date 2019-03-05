@@ -20,6 +20,7 @@
 		6CBCB9EF221C729300AC224F /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBCB9EE221C729300AC224F /* CloudKit.framework */; };
 		6CBCB9F1221C866800AC224F /* BackupScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBCB9F0221C866800AC224F /* BackupScreen.swift */; };
 		6CBEADE322079D780054FE02 /* DeviceCompatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBEADE222079D780054FE02 /* DeviceCompatibility.swift */; };
+		6CD17DD9222C5CDD0043AD6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD375120219DE7F9005A577E /* Assets.xcassets */; };
 		6CE184D721D710E8004D9C22 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE184D621D710E8004D9C22 /* Helpers.swift */; };
 		AD11B36021A72760004D352C /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD11B35F21A72760004D352C /* UIViewController.swift */; };
 		AD11B36421A73260004D352C /* TagCellCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD11B36321A73260004D352C /* TagCellCollectionView.swift */; };
@@ -27,7 +28,6 @@
 		AD37511A219DE7F7005A577E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD375119219DE7F7005A577E /* AppDelegate.swift */; };
 		AD37511C219DE7F7005A577E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD37511B219DE7F7005A577E /* ViewController.swift */; };
 		AD37511F219DE7F7005A577E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD37511D219DE7F7005A577E /* Main.storyboard */; };
-		AD375121219DE7F9005A577E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD375120219DE7F9005A577E /* Assets.xcassets */; };
 		AD375124219DE7F9005A577E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD375122219DE7F9005A577E /* LaunchScreen.storyboard */; };
 		AD4E7A1B21A5D1DA0031EB5C /* ImageStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4E7A1A21A5D1DA0031EB5C /* ImageStruct.swift */; };
 		AD62642921A8973C0056337E /* ImagesInDirectoryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD62642821A8973C0056337E /* ImagesInDirectoryInfo.swift */; };
@@ -260,8 +260,8 @@
 				E096BF342A7A4FC0810B6DEE /* [CP] Check Pods Manifest.lock */,
 				AD375112219DE7F7005A577E /* Sources */,
 				AD375113219DE7F7005A577E /* Frameworks */,
-				AD375114219DE7F7005A577E /* Resources */,
 				41989F7986F35E93B598703C /* [CP] Embed Pods Frameworks */,
+				AD375114219DE7F7005A577E /* Resources */,
 				6C866BFA221B834500ACDA4B /* Embed App Extensions */,
 			);
 			buildRules = (
@@ -331,8 +331,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CD17DD9222C5CDD0043AD6E /* Assets.xcassets in Resources */,
 				AD375124219DE7F9005A577E /* LaunchScreen.storyboard in Resources */,
-				AD375121219DE7F9005A577E /* Assets.xcassets in Resources */,
 				AD37511F219DE7F7005A577E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -615,8 +615,7 @@
 			baseConfigurationReference = A3B59336395729B6C834DD4A /* Pods-PicTag.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-new";
 				CODE_SIGN_ENTITLEMENTS = Eidetic/Eidetic.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -630,7 +629,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -639,8 +638,7 @@
 			baseConfigurationReference = C2F35012E1254D0466066AD5 /* Pods-PicTag.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-new";
 				CODE_SIGN_ENTITLEMENTS = Eidetic/Eidetic.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -654,7 +652,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
